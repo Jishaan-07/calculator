@@ -1,0 +1,55 @@
+.main {
+    width: 420px;
+    height: 550px;
+    background-color: grey;
+    border: solid;
+    border-radius: 10px;
+box-shadow: 50px;
+}
+
+#result {
+    width: 360px;
+    height: 100px;
+    margin: 10PX 18px;
+    border-radius: 10px;
+}
+ 
+.keypad3{
+        display: flex;  
+  justify-content: space-evenly;
+}
+
+ 
+.kesev{
+    padding: 30px 44px;
+}
+.dd{
+    padding: 30px 44px;
+background-color: lightblue;
+color: blue; 
+}
+.keshuev{
+    padding: 30px 44px;
+background-color: blue; 
+color: white;
+}
+ .kesevp{
+    padding: 30px 46px;
+
+ }
+ .kesevpn{
+    padding: 30px 38px;
+
+ }
+ .keseuv{
+    padding: 30px 44px;
+
+ }
+ .keseuvoo{
+    padding: 30px 46px;
+
+ }
+ .dejjj{
+    padding: 30px 40px;
+
+ }

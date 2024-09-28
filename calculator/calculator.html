@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="display">
+            <input type="text" placeholder="0" id="result" readonly>
+        </div>
+        <div class="keypad3">
+
+            <div class="key1">
+                <button onclick="displayContent('(')" class="keseuvoo">(</button>
+            </div>
+            <div class="key1">
+                <button onclick="displayContent(')')" class="keseuvoo">)</button>
+            </div>
+            <div class="key1">
+                <button  onclick="removeLastDigit()" class="dejjj"><i class="fa-solid fa-delete-left"></i></button>
+            </div>
+            <div class="key1">
+                <button onclick="displayContent('/')"  class="dd"> <i class="fa-solid fa-divide"></i></button>
+            </div>
+
+        </div>
+        <div class="keypad3">
+
+            <div class="key10">
+                <button onclick="displayContent('7')" class="kesev">7</button>
+            </div>
+            <div class="key10">
+                <button onclick="displayContent('8')"  class="keseuv">8</button>
+            </div>
+            <div class="key10">
+                <button onclick="displayContent('9')"  class="kesev">9</button>
+            </div>
+            <div class="key10">
+                <button onclick="displayContent('*')"  class="dd"> <i class="fa-solid fa-xmark"></i></button>
+            </div>
+
+        </div>
+        <div class="keypad3">
+
+            <div class="key1">
+                <button onclick="displayContent('4')" class="kesev">4</button>
+            </div>
+            <div class="key1">
+                <button onclick="displayContent('5')"  class="kesev">5</button>
+            </div>
+            <div class="key1">
+                <button onclick="displayContent('6')" class="kesev">6 </button>
+            </div>
+            <div class="key1">
+                <button onclick="displayContent('-')" class="dd"> <i class="fa-solid fa-minus"></i></button>
+            </div>
+
+        </div>
+
+        <div class="keypad3">
+
+            <div class="key1">
+                <button onclick="displayContent('1')" class="kesev">1</button>
+            </div>
+            <div class="key1">
+                <button onclick="displayContent('2')" class="kesev">2</button>
+            </div>
+            <div class="key1">
+                <button onclick="displayContent('3')" class="kesev">3</button>
+            </div>
+            <div class="key1">
+                <button onclick="displayContent('+')" class="dd"><i class="fa-solid fa-plus"></i></button>
+            </div>
+
+        </div>
+
+
+        <div class="keypad3"> 
+
+            <div class="key1">
+                <button onclick="displayContent('0')" class="kesev">0</button>
+            </div>
+            <div class="key1">
+                <button onclick="displayContent('.')" class="kesevp">.</button>
+            </div>
+            <div class="key1">
+                <button onclick="calScreenClear()" class="kesevpn">Ac</button>
+            </div>
+            <div class="key1">
+                <button onclick="calOutput()" class="keshuev"><i class="fa-solid fa-equals"></i></button>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+<script src="./main.js"></script>
+</html>
